@@ -1,0 +1,8 @@
+steps:6
+startangle:0
+startx:0
+starty:0
+length:10
+angle:22.5
+axiom:F
+rule:F=-F+F+[+F-F-]-[-F+F+F]

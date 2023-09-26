@@ -1,0 +1,9 @@
+steps:3
+startangle:0
+startx:0
+starty:0
+length:10
+angle:90
+axiom:F-F-F-F
+rule:F=F-B+F-F-F-FB-F+B-F+F+F+FB+FF
+rule:B=BBBB

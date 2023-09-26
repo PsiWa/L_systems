@@ -1,0 +1,10 @@
+steps:7
+startangle:0
+startx:0
+starty:0
+length:10
+angle:90
+axiom:X
+rule:F=F
+rule:X=-YF+XFX+FY-
+rule:Y=+XF-YFY-FX+
