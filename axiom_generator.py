@@ -37,7 +37,6 @@ class Lsystem:
     def Draw(self,isInstant,s):
         if (isInstant):
             turtle.Screen().tracer(0)
-            s=int(10)
         turtle.speed(int(s))
         turtle.penup()
         turtle.goto(self.startx,self.starty)

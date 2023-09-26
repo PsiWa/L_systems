@@ -22,7 +22,11 @@ def main():
             setups[par]=var
     lsys = Lsystem(int(setups["startx"]),int(setups["starty"]),float(setups["startangle"]),int(setups["length"]),float(setups["angle"]),setups["axiom"],rules)
     lsys.GenerateNSteps(int(setups["steps"]))
-    lsys.Draw(True,10)
+    if setups["isInstant"] == 'True':
+        isInstant = True
+    else:
+        isInstant = False
+    lsys.Draw(isInstant,10)
 
 if __name__ == "__main__":
     main()

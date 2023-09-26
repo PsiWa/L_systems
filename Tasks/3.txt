@@ -1,3 +1,4 @@
+isInstant:True
 steps:7
 startangle:0
 startx:0
